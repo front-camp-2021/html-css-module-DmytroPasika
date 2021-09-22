@@ -1,0 +1,6 @@
+@use './colors' as *;
+
+body {
+    background-color: map-get($colors, background-color);
+}
+

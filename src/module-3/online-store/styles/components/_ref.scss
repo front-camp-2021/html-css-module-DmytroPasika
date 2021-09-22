@@ -1,0 +1,6 @@
+@use './colors' as *;
+
+.reference {
+    text-decoration: none;
+    color: map-get($colors,black);
+  }
