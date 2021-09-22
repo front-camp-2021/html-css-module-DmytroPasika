@@ -1,0 +1,114 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 400px;
+    height: 486px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.card__description {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px ;
+}
+
+.card__image-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.card__image {
+    height: 272px;
+}
+
+.card__score-image-btn {
+    height: 12px;
+}
+
+.card__price-and-score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 16px;
+}
+
+.card__score-button {
+    color: #FFFFFF;
+    background: #6F64F8;
+
+    height: 30px;
+    width: 64px;
+    border-radius: 3px;
+}
+
+.card__score-text {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    padding: 2px 7px;
+}
+
+.card__price {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header-1 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.text-1 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;  
+}
+
+.button {
+    border: none;
+}
+
+.card__actions {
+    display: flex;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card__wishlist-btn {
+    width: 100%;
+    padding: 14px 0;
+    color: #2C2C2C;
+    border-bottom-left-radius: 8px;
+}
+.card__add-btn {
+    width: 100%;
+    padding: 14px 0;
+    background: #6F64F8;
+    color: #FFFFFF;
+    border-bottom-right-radius: 8px;
+}
+
+.card__description-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.button__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.button__text {
+    padding: 2px 7px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style/cardStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Product Card</title>
+</head>
+<body>
+   <div class='card'>
+       <div class="card__content">
+            <div class="card__image-container">
+                <img class='card__image' src="../img/apple-watch.png" alt="Product image">
+            </div>
+            <div class="card__description">
+                <div class='card__price-and-score'>
+                    <div class='card__score'>
+                        <button name='scoreButton' class="card__score-button button">
+                          <div class="button__content">
+                            <span class="card__score-text">
+                                3.4
+                            </span>
+                            <img src="../img/star.svg" alt="score image" class='card__score-image-btn'>
+                          </div>
+                        </button>
+                    </div>
+                    <div class="card__price">
+                            $399
+                    </div>
+                </div>
+                <div class='card__description-text'>
+                    <span  class="header-1">Apple Watch Series 4 GPS</span>
+                    <span class='text-1'>Redesigned from scratch and completely revised.</span>
+                </div>
+            </div>
+       </div>
+
+        <div class="card__actions">
+            <button class='card__wishlist-btn button' name="wishlist">
+                <div class="button__content">
+                    <img class="card__heart" src="../img/Path.svg" alt='Like image'>
+                    <div class="button__text">WISHLIST</div>
+                </div>
+            </button>
+            <button class='card__add-btn button' name="addToCart">
+                <div class="button__content">
+                    <img class='card__add-to-cart' src="../img/shopping-bag.svg" alt="Shop">
+                    <div class="button__text">ADD TO CART</div>
+                </div>
+            </button>
+        </div>
+   </div>
+</body>
+</html> 

@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <title>bootstrap design</title>
+</head>
+
+<body>
+
+
+
+  <div class=".container-fluid d-none d-lg-block header">
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../img/logo.png" alt="Logo image" width="91" height="72" class="d-inline-block align-text-center">
+            Online Store
+          </a>
+        </div>
+        <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+          <ol class="breadcrumb ms-3">
+            <li class="breadcrumb-item"><a href="#"></a><i class="bi bi-shop-window"></i></a></li>
+            <li class="breadcrumb-item"><a href="#">eCommerce</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Electronics</li>
+          </ol>
+        </nav>
+      </nav>
+    </header>
+  </div>
+
+  <div class="container-fluid d-flex justify-content-around main">
+    <div class="container-sm d-none d-lg-block container-filter">
+
+      <div class="container-sm d-flex justify-content-between pb-2 px-0">
+        <p class="fs-5">Filters</p>
+        <button type="button" class="btn btn-outline-dark">
+          << </button>
+      </div>
+
+      <div class="container-sm border border-1">
+        <p class="fs-6">Multi Range</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="cost" id='radio-1'>
+          <label class="form-check-label" for="radio-1">
+            $10
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="cost" id='radio-2'>
+          <label class="form-check-label" for="radio-2">
+            $10-$100
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="cost" id='radio-3'>
+          <label class="form-check-label" for="radio-3">
+            $100-$500
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="cost" id='radio-4'>
+          <label class="form-check-label" for="radio-4">
+            $500
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="cost" id='radio-5' checked>
+          <label class="form-check-label" for="radio-5">
+            All
+          </label>
+        </div>
+
+        <hr>
+
+        <p class="fs-6">Categories</p>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-1" name='categories'>
+            <label class="form-check-label" for="categories-1">
+              Cell Phones
+            </label>
+          </div>
+          <div>
+            1920
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-2" name='categories'>
+            <label class="form-check-label" for="categories-2">
+              Computers & Tablets
+            </label>
+          </div>
+          <div>
+            1820
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-3" name='categories' checked>
+            <label class="form-check-label" for="categories-3">
+              Cell Phones Accessories
+            </label>
+          </div>
+          <div>
+            462
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-4" name='categories'>
+            <label class="form-check-label" for="categories-4">
+              Appliances
+            </label>
+          </div>
+          <div>
+            6556
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-5" name='categories'>
+            <label class="form-check-label" for="categories-5">
+              Audio
+            </label>
+          </div>
+          <div>
+            120
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-6" name='categories'>
+            <label class="form-check-label" for="categories-6">
+              Iphone Accessories
+            </label>
+          </div>
+          <div>
+            353
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-7" name='categories'>
+            <label class="form-check-label" for="categories-7">
+              Cameras & Camcorders
+            </label>
+          </div>
+          <div>
+            45
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-8" name='categories'>
+            <label class="form-check-label" for="categories-8">
+              Iphone Cases & Clips
+            </label>
+          </div>
+          <div>
+            456
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-9" name='categories'>
+            <label class="form-check-label" for="categories-9">
+              TV & Home Theater
+            </label>
+          </div>
+          <div>
+            55
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="categories-1" name='categories'>
+            <label class="form-check-label" for="categories-1">
+              Small Kitchen Appliances
+            </label>
+          </div>
+          <div>
+            10
+          </div>
+        </div>
+
+        <hr>
+
+        <p class="fs-6">Brand</p>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-1" name='brand'>
+            <label class="form-check-label" for="brand-1">
+              Insigni
+            </label>
+          </div>
+          <div>
+            220
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-2" name='brand'>
+            <label class="form-check-label" for="brand-2">
+              Samsung
+            </label>
+          </div>
+          <div>
+            120
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-3" name='brand'>
+            <label class="form-check-label" for="brand-3">
+              Apple
+            </label>
+          </div>
+          <div>
+            320
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-4" name='brand'>
+            <label class="form-check-label" for="brand-4">
+              HP
+            </label>
+          </div>
+          <div>
+            32
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-5" name='brand'>
+            <label class="form-check-label" for="brand-5">
+              Sony
+            </label>
+          </div>
+          <div>
+            520
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-6" name='brand'>
+            <label class="form-check-label" for="brand-6">
+              Metra
+            </label>
+          </div>
+          <div>
+            55
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-7" name='brand'>
+            <label class="form-check-label" for="brand-7">
+              Dyne
+            </label>
+          </div>
+          <div>
+            120
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-8" name='brand'>
+            <label class="form-check-label" for="brand-8">
+              LG
+            </label>
+          </div>
+          <div>
+            98
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-9" name='brand'>
+            <label class="form-check-label" for="brand-9">
+              Canon
+            </label>
+          </div>
+          <div>
+            99
+          </div>
+        </div>
+        <div class="form-check d-flex justify-content-between mb-5">
+          <div>
+            <input class="form-check-input" type="checkbox" value="" id="brand-1" name='brand'>
+            <label class="form-check-label" for="brand-1">
+              Speck
+            </label>
+          </div>
+          <div>
+            575
+          </div>
+        </div>
+      </div>
+
+      <div class="d-grid gap-2 pt-2">
+        <button class="btn btn-primary" type="button">CLEAR ALL FILTERS</button>
+      </div>
+
+    </div>
+
+    <div class="container-fluid card-list">
+
+      <div class="container-fluid search">
+        <div class="form d-flex align-items-center justify-content-between"><input type="text"
+            class="form-control form-input" placeholder="Search anything...">
+          <i class="bi bi-search ms-2"></i>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card mt-2 me-2 justify-content-between">
+            <div class="image d-flex justify-content-center my-2">
+              <img src="../img/apple-watch.png" class='img-fluid' width="160">
+            </div>
+            <div>
+              <div class="pricing d-flex justify-content-between px-2">
+                <button type="button" class="btn btn-primary">4.5 <i class="bi bi-heart"></i></button>
+                <h3 class="me-1">$80</h3>
+              </div>
+              <div class="details  mx-2 my-2">
+                <h6 class="mb-0">Apple Watch Series 4 GPS</h6>
+                <p class="mb-0">discription</p>
+              </div>
+              <div class="buttons d-flex justify-content-between">
+                <button>
+                  <i class="bi bi-heart"></i>
+                  WISHLIST
+                </button>
+                <button>
+                  <i class="bi bi-shop"></i>
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-2 me-2 justify-content-between">
+            <div class="image d-flex justify-content-center my-2">
+              <img src="../img/apple-watch.png" class='img-fluid' width="160">
+            </div>
+            <div>
+              <div class="pricing d-flex justify-content-between px-2">
+                <button type="button" class="btn btn-primary">4.5 <i class="bi bi-heart"></i></button>
+                <h3 class="me-1">$80</h3>
+              </div>
+              <div class="details  mx-2 my-2">
+                <h6 class="mb-0">Apple Watch Series 4 GPS</h6>
+                <p class="mb-0">discription</p>
+              </div>
+              <div class="buttons d-flex justify-content-between">
+                <button>
+                  <i class="bi bi-heart"></i>
+                  WISHLIST
+                </button>
+                <button>
+                  <i class="bi bi-shop"></i>
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-2 me-2 justify-content-between">
+            <div class="image d-flex justify-content-center my-2">
+              <img src="../img/apple-watch.png" class='img-fluid' width="160">
+            </div>
+            <div>
+              <div class="pricing d-flex justify-content-between px-2">
+                <button type="button" class="btn btn-primary">4.5 <i class="bi bi-heart"></i></button>
+                <h3 class="me-1">$80</h3>
+              </div>
+              <div class="details  mx-2 my-2">
+                <h6 class="mb-0">Apple Watch Series 4 GPS</h6>
+                <p class="mb-0">discription</p>
+              </div>
+              <div class="buttons d-flex justify-content-between">
+                <button>
+                  <i class="bi bi-heart"></i>
+                  WISHLIST
+                </button>
+                <button>
+                  <i class="bi bi-shop"></i>
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-2 me-2 justify-content-between">
+            <div class="image d-flex justify-content-center my-2">
+              <img src="../img/apple-watch.png" class='img-fluid' width="160">
+            </div>
+            <div>
+              <div class="pricing d-flex justify-content-between px-2">
+                <button type="button" class="btn btn-primary">4.5 <i class="bi bi-heart"></i></button>
+                <h3 class="me-1">$80</h3>
+              </div>
+              <div class="details  mx-2 my-2">
+                <h6 class="mb-0">Apple Watch Series 4 GPS</h6>
+                <p class="mb-0">discription</p>
+              </div>
+              <div class="buttons d-flex justify-content-between">
+                <button>
+                  <i class="bi bi-heart"></i>
+                  WISHLIST
+                </button>
+                <button>
+                  <i class="bi bi-shop"></i>
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mt-2 me-2 justify-content-between">
+            <div class="image d-flex justify-content-center my-2">
+              <img src="../img/apple-watch.png" class='img-fluid' width="160">
+            </div>
+            <div>
+              <div class="pricing d-flex justify-content-between px-2">
+                <button type="button" class="btn btn-primary">4.5 <i class="bi bi-heart"></i></button>
+                <h3 class="me-1">$80</h3>
+              </div>
+              <div class="details  mx-2 my-2">
+                <h6 class="mb-0">Apple Watch Series 4 GPS</h6>
+                <p class="mb-0">discription</p>
+              </div>
+              <div class="buttons d-flex justify-content-between">
+                <button>
+                  <i class="bi bi-heart"></i>
+                  WISHLIST
+                </button>
+                <button>
+                  <i class="bi bi-shop"></i>
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card mt-2 me-2 justify-content-between">
+            <div class="image d-flex justify-content-center my-2">
+              <img src="../img/apple-watch.png" class='img-fluid' width="160">
+            </div>
+            <div>
+              <div class="pricing d-flex justify-content-between px-2">
+                <button type="button" class="btn btn-primary">4.5 <i class="bi bi-heart"></i></button>
+                <h3 class="me-1">$80</h3>
+              </div>
+              <div class="details  mx-2 my-2">
+                <h6 class="mb-0">Apple Watch Series 4 GPS</h6>
+                <p class="mb-0">discription</p>
+              </div>
+              <div class="buttons d-flex justify-content-between">
+                <button>
+                  <i class="bi bi-heart"></i>
+                  WISHLIST
+                </button>
+                <button>
+                  <i class="bi bi-shop"></i>
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class='container-fluid pagination  my-4 d-flex justify-content-center'>
+    <div class="pagination">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">6</a></li>
+          <li class="page-item"><a class="page-link" href="#">7</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+          <li class="page-item"><a class="page-link" href="#">9</a></li>
+          <li class="page-item"><a class="page-link" href="#">10</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

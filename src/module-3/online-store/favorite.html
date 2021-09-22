@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+      <div class="header__logo">
+        <img src="../img/logo.png" alt="logo image" class="header__image">
+        <span class="header__text">
+          Online Store
+        </span>
+      </div>
+      <div class="header__nav header-nav">
+      <a href="./index.html" class="reference">
+        <img src="../img/home.svg" alt="home button image" class="header-nav__home-image">
+      </a>
+        <span class="header-nav__span">
+          <img src="../img/Pathnav.svg" alt="navigation element" class="header-nav__path-image">
+          <img src="../img/Pathnav.svg" alt="navigation element" class="header-nav__path-image">
+        </span>
+        <span class="header-nav__text">
+          Wish list
+        </span>
+      </div>
+    </div>
+    <div class="button-wish">
+      <button class="button-wish__clear-item button">
+        <div class="button-wish__btn-label">CLEAR ALL ITEMS</div>
+      </button>
+    </div>
+    <div class='cards__list wish-list'>
+      <div class="card">
+        <div class="card__content">
+          <div class="card__image-container">
+            <img class='card__image' src="../img/apple-watch.png" alt="Product image">
+          </div>
+          <div class="card__description">
+            <div class='card__price-and-score'>
+              <div class='card__score'>
+                <button name='scoreButton' class="card__score-button button">
+                  <div class="card__container-btn">
+                    <span class="card__score-text">
+                      3.4
+                    </span>
+                    <img src="../img/star.svg" alt="score image" class='card__score-image-btn'>
+                  </div>
+                </button>
+              </div>
+              <div class="card__price">
+                $399
+              </div>
+            </div>
+            <div class='card__description-text'>
+              <span class="card__header">Apple Watch Series 4 GPS</span>
+              <span class='card__text'>Redesigned from scratch and completely revised.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__actions">
+          <button class='card__wishlist-btn button' name="wishlist">
+            <div class="card__container-btn">
+              <img class="card__heart" src="../img/Path.svg" alt='Like image'>
+              <div class="card__text-btn">WISHLIST</div>
+            </div>
+          </button>
+          <button class='card__add-btn button' name="addToCart">
+            <div class="card__container-btn">
+              <img class='card__add-to-cart' src="../img/shopping-bag.svg" alt="Shop">
+              <div class="card__text-btn">ADD TO CART</div>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__content">
+          <div class="card__image-container">
+            <img class='card__image' src="../img/jbl-speaker.png" alt="Product image">
+          </div>
+          <div class="card__description">
+            <div class='card__price-and-score'>
+              <div class='card__score'>
+                <button name='scoreButton' class="card__score-button button">
+                  <div class="card__container-btn">
+                    <span class="card__score-text">
+                      4.1
+                    </span>
+                    <img src="../img/star.svg" alt="score image" class='card__score-image-btn'>
+                  </div>
+                </button>
+              </div>
+              <div class="card__price">
+                $199
+              </div>
+            </div>
+            <div class='card__description-text'>
+              <span class="card__header">JBL Speaker</span>
+              <span class='card__text'>Redesigned from scratch and completely revised.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__actions">
+          <button class='card__wishlist-btn button' name="wishlist">
+            <div class="card__container-btn">
+              <img class="card__heart" src="../img/Path.svg" alt='Like image'>
+              <div class="card__text-btn">WISHLIST</div>
+            </div>
+          </button>
+          <button class='card__add-btn button' name="addToCart">
+            <div class="card__container-btn">
+              <img class='card__add-to-cart' src="../img/shopping-bag.svg" alt="Shop">
+              <div class="card__text-btn">ADD TO CART</div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination">
+      <div>
+        <a href="#" class="pagination__reference-direction reference">
+          <img src="../img/PathNav2.svg" alt="navigation path image">
+        </a>
+      </div>
+
+      <div class="pagination__pages reference">
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference"> 1</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">2</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">3</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">4</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">5</a>
+        </div>
+        <div class="pagination__container pagination__active">
+          <a href="#" class="pagination__reference reference pagination__active">6</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">7</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">8</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">9</a>
+        </div>
+        <div class="pagination__container">
+          <a href="#" class="pagination__reference reference">10</a>
+        </div>
+      </div>
+
+      <a href="#" class="pagination__reference-direction reference">
+        <img src="../img/PathNav1.svg" alt="navigation path image">
+      </a>
+    </div>
+
+
+</body>
+
+</html>
